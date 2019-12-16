@@ -1,0 +1,37 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
+cluster:
+  clusterName: staging
+  environmentGitOwner: aivarassjenkinsx
+  gitKind: github
+  provider: aws
+  region: eu-west-1
+ingress:
+  domain: ""
+  externalDNS: false
+  namespaceSubDomain: ""
+  tls:
+    email: ""
+    enabled: false
+    production: false
+secretStorage: local
+storage:
+  backup:
+    enabled: false
+    url: ""
+  logs:
+    enabled: false
+    url: ""
+  reports:
+    enabled: false
+    url: ""
+  repository:
+    enabled: false
+    url: ""
+vault: {}
+velero: {}
+versionStream:
+  ref: v1.0.257
+  url: ""
+webhook: prow
